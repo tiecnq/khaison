@@ -1,0 +1,47 @@
+﻿.ul1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+    margin-bottom: 20px;
+}
+
+.post-thumbnail {
+    max-width: 65px;
+    float: left;
+}
+.titlehr {
+    display: inline-block;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+.post-info {
+    width: calc(100% - 65px);
+    float: left;
+    padding-left: 30px;
+    position: relative;
+}
+.entry-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+}
+.widget-title {
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 0;
+    /*margin-bottom: 30px;*/
+    position: relative;
+    background-color: #1c9e1c;
+    text-align: center;
+    color: #FFFFFF;
+}
+.post-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

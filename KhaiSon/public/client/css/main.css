@@ -1,0 +1,475 @@
+.introduce {
+    background: url('../imgs/1.jpg');
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.div--logo h2 {
+    color: #fff;
+}
+
+.content--introduce {
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.test {
+    font-weight: bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+}
+
+@-webkit-keyframes my {
+    0% {
+        color: #F8CD0A;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #F8CD0A;
+    }
+}
+
+@-moz-keyframes my {
+    0% {
+        color: #F8CD0A;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #F8CD0A;
+    }
+}
+
+@-o-keyframes my {
+    0% {
+        color: #F8CD0A;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #F8CD0A;
+    }
+}
+
+@keyframes my {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: black;
+    }
+}
+/* loithecanhtranh */
+
+.adv {
+    background-image: url(../imgs/3.jpg);
+    height: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.adv--content {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    padding: 100px;
+    background: linear-gradient(to top,rgba(255,0,0,0),#1fad1f);
+}
+
+    .adv--content p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 24px;
+    }
+
+.investor {
+    background-image: url('../imgs/4.jpg');
+    background-size: 100% 100%;
+}
+
+.size {
+    background: url(../imgs/5.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.size__item--left-1 {
+    top: -270px;
+}
+
+.location {
+    background: #a3cdff url(../imgs/vi-tri-khai-son.jpg) no-repeat 50%;
+    background-size: 100% 100%;
+    padding: 25px;
+}
+
+    .location .location--content .content {
+        padding-bottom: 15px;
+        background: rgba(24,156,46,.5);
+        color: #fff;
+    }
+
+    .location .location--content p {
+        /*padding: 20px;*/
+    }
+
+.size {
+    display: flex;
+    align-items: center;
+}
+
+.size__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 50px;
+}
+
+.size__item {
+    position: static;
+}
+
+.btn--size {
+    position: static;
+    margin-top: 15px;
+}
+
+.pdLeft15 li {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.highlights {
+    display: flex;
+    align-items: center;
+    background: url(../imgs/7.jpg) no-repeat 50%;
+    background-size: cover;
+    padding: 25px;
+}
+
+.highlights__content {
+    position: absolute;
+    top: 100px;
+    transform: translateY(0) !important;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.highlights__content--bottom {
+    margin-top: 0;
+}
+
+.utility {
+    padding: 20px;
+}
+
+.utility--inside-detail {
+    padding-bottom: 35px;
+    background-image: url('../imgs/noi-that-ben-trong.jpg');
+    background-size: 100% 100%;
+}
+
+.inside--detail-01 {
+    background: url(../imgs/tien-ich-ben-trong/benh-vien-da-khoa.jpg) center;
+    background-size: cover;
+}
+
+.inside--wrap {
+    justify-content: center;
+}
+
+.inside--detail-02 {
+    background: url(../imgs/tien-ich-ben-trong/cong-vien-trung-tam.jpg) center;
+    background-size: cover;
+}
+
+.inside--detail-03 {
+    background: url(../imgs/tien-ich-ben-trong/cua-hang-tien-ich.png) center;
+    background-size: cover;
+}
+
+.inside--detail-04 {
+    background: url(../imgs/tien-ich-ben-trong/ho-dieu-hoa.jpg) center;
+    background-size: cover;
+}
+
+.inside--detail-05 {
+    background: url(../imgs/tien-ich-ben-trong/khach-san-5-sao.jpg) center;
+    background-size: cover;
+}
+
+.inside--detail-06 {
+    background: url(../imgs/tien-ich-ben-trong/khu-vui-choi-the-thao.jpg) center;
+    background-size: cover;
+}
+
+.inside--detail-07 {
+    background: url(../imgs/tien-ich-ben-trong/nha-hang-cafe.jpg) center;
+    background-size: cover;
+}
+
+.img--inside {
+    width: calc(100% / 4 - 34px);
+    margin: 15px;
+}
+
+.note--inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.title--uppercase {
+    text-transform: uppercase;
+}
+
+.utility--detail img {
+    object-fit: cover;
+}
+
+.content--detail {
+    font-size: 16px;
+}
+
+.review-video {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.video {
+    width: 800px;
+    height: 450px;
+    border: none;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .utility--title {
+        margin-left: 55vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .highlights__content {
+        position: static;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+
+    .highlights__content--item {
+        margin: 0;
+    }
+
+    .list__indent {
+        margin-left: 0 !important;
+    }
+
+    .img--inside {
+        width: calc(100% / 2 - 34px);
+        margin: 15px;
+    }
+
+    .content--introduce {
+        left: 0;
+        transform: unset;
+    }
+
+    .investor .investor--content {
+        border-radius: 0;
+    }
+
+    .adv--content {
+        position: static;
+        padding: 30px;
+    }
+
+    .investor .investor--content {
+        max-width: 100%;
+    }
+
+    .review-video {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 600px;
+    }
+
+    .video {
+        width: 600px;
+        height: 338px;
+        border: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .size__wrap {
+        align-items: center;
+    }
+
+    .size__item {
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    .btn--size {
+        width: 80%;
+        margin: 0 0 20px 0;
+    }
+
+    .highlights__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights__content--top {
+        margin-bottom: 25px;
+    }
+
+    .highlights__content--item {
+        width: 80%;
+    }
+
+
+    .utility--content {
+        margin-top: 20px;
+    }
+
+    .img--inside {
+        width: 100%;
+    }
+
+    .investor .investor--content {
+        border-radius: 0;
+    }
+
+    .review-video {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 500px;
+    }
+
+    .video {
+        width: 500px;
+        height: 281px;
+        border: none;
+    }
+}
+
+@media (max-width: 572px) {
+    .introduce {
+        background-size: cover !important;
+    }
+
+    .size__item {
+        width: 100%;
+    }
+
+    .btn--size {
+        width: 100%;
+    }
+
+    .size__item--right h2 {
+        font-size: 20px;
+    }
+
+    .btn__subscribe {
+        font-size: 16px;
+    }
+
+    .adv--content {
+        width: auto;
+    }
+
+    .investor .investor--content {
+        border-radius: 0;
+    }
+
+    .review-video {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 350px;
+    }
+
+    .video {
+        width: 350px;
+        height: 197px;
+        border: none;
+    }
+}
+
+.gift {
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    background-color: rgba(255, 194, 31, 0.8);
+    font-size: 33px;
+    font-family: BebasNeueBold;
+    text-align: center;
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+    .content--introduce {
+        transform: unset !important;
+    }
+
+    .title--introduce {
+        font-size: 35px !important;
+    }
+
+    .gift {
+        padding: 10px;
+        width: 80%;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .size {
+        padding: 0;
+    }
+}
+
+.content--introduce {
+    width: 100%;
+    background-color: transparent;
+}
+
+.title--introduce {
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    font-size: 50px;
+    color: #1c9e1c;
+}
+
+.review {
+    background-image: url('../imgs/video.jpg');
+    background-size: 100% 100%;
+}
